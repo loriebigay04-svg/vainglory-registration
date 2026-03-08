@@ -1,52 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vainglory Registration</title>
+body{
+font-family: Arial, sans-serif;
+background:#0f172a;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
 
-<link rel="stylesheet" href="style.css">
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+width:350px;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
 
-</head>
+h1{
+text-align:center;
+margin-bottom:20px;
+}
 
-<body>
+label{
+display:block;
+margin-top:10px;
+}
 
-<div class="container">
+input, select{
+width:100%;
+padding:8px;
+margin-top:5px;
+border-radius:5px;
+border:1px solid #ccc;
+}
 
-<h1>Vainglory Registration</h1>
+button{
+margin-top:15px;
+width:100%;
+padding:10px;
+border:none;
+background:#16a34a;
+color:white;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
 
-<form id="registrationForm">
+button:hover{
+background:#15803d;
+}
 
-<label>Full Name</label>
-<input type="text" placeholder="Enter your name" required>
-
-<label>Email</label>
-<input type="email" placeholder="Enter your email" required>
-
-<label>Password</label>
-<input type="password" placeholder="Enter password" required>
-
-<label>Favorite Role</label>
-<select>
-<option>Carry</option>
-<option>Jungle</option>
-<option>Captain</option>
-<option>Mid</option>
-</select>
-
-<button type="submit">Register</button>
-
-</form>
-
-<p id="message"></p>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-</html>;
-window.__REACT_QUERY_CACHE__ ??= {}
-</script>
-
-<script nonce="">$RC("B:2","S:2")</script><script id="pioneer-script-ouia2h4" src="./Registration Website Code_files/js" async=""></script></body></html>
+#message{
+margin-top:15px;
+text-align:center;
+color:green;
+}
